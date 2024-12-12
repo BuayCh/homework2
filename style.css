@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+  background-image: url(https://tinder.com/static/build/ac062d1b428513b9c13d11026d330e34.webp); 
+  max-width: 1200px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  gap: 16px;
+}
+
+img {
+  /* background-color: brown; */
+  width: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header input {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  border: 0px;
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+}
+
+header .submit {
+  display: flex;
+  align-items: center;
+  padding-left: 80%;
+}
+
+.create {
+  color: white;
+  display: flex;
+  font-size: 10vh;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px ;
+  padding-left: 350px;
+    text-align: center;
+}
+
+.create input{
+    background: radial-gradient(circle, rgba(242,43,43,1) 69%, rgba(219,89,19,1) 100%);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 20px;
+}
